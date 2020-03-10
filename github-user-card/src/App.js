@@ -1,13 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-import './App.css';
+import './App.css'
+import Cards from "./components/Cards"
+
 
 function App() {
   return (
     <div className="App">
-      <p>test</p>
+      <Cards />
     </div>
   );
 }
 
-export default App;
+export default App
