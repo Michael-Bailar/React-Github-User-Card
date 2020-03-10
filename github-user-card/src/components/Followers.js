@@ -1,10 +1,18 @@
 import React from "react"
 
-const Followers = (props) => {
+const Followers = ({usersData}) => {
+    usersData.forEach(user => console.log(user))
+
     return (
-        <div className="followers-container">
-            <p>test</p>
-            {/* {props.usersData.} */}
+        <div>
+            {usersData.map(user => {
+                return(
+                    <div className="card">
+                        <img className="profile-img" src={user.avatar_url} alt="user avatar" />
+                        <h1>{user.login}</h1>
+                    </div>
+                )
+            })}
         </div>
     )
 }

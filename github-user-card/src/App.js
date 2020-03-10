@@ -9,13 +9,12 @@ class App extends React.Component {
 
   state= {
     myData: {},
-    usersData:{}
+    usersData:[]
   }
 
   componentDidMount() {
     axios.get("https://api.github.com/users/michael-bailar")
     .then(res => {
-      console.log("my res", res)
       this.setState({
         myData: res.data
       })
@@ -26,7 +25,6 @@ class App extends React.Component {
 
     axios.get("https://api.github.com/users/Michael-Bailar/followers")
     .then(res => {
-      console.log("users res", res)
       this.setState({
         usersData: res.data
       })
@@ -42,6 +40,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Card myData={this.state.myData}/>
+        <h1>My Followers<br/>-------------------------------</h1>
         <Followers usersData={this.state.usersData}/>
       </div>
     );
