@@ -2,7 +2,11 @@
 
 .App {
   text-align: center;
-  width:50%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .my-data-card {
@@ -10,6 +14,6 @@
 }
 
 .profile-img {
-  width:30%;
+  width:60%;
   border-radius: 10px;
 }
