@@ -1,3 +1,7 @@
+# Github-User-Card
+
+This is a great example of an assignment Lambda school had us do on a daily basis. This one simply takes a list of github connections and displays them in cards. Pretty simple but fun.
+
 # Module Project: Component Lifecycle Methods - React Github User Card
 
 This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored lifecycle methods in class components. In your project you will demonstrate proficiency of these concepts by recreating the Github User Card project, but as a React application this time.
