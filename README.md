@@ -1,6 +1,6 @@
 # Github-User-Card
 
-This is a great example of an assignment Lambda school had us do on a daily basis. This one simply takes a list of github connections and displays them in cards. Pretty simple but fun.
+This is a great example of an assignment Lambda school had us do on a daily basis. This one simply takes a list of github connections and displays them in cards. Pretty simple but fun. Below is the readme given by Lambda with instructions on the project so you can see the kinds of things they required from us. 
 
 # Module Project: Component Lifecycle Methods - React Github User Card
 
